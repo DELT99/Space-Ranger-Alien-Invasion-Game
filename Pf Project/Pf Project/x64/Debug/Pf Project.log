@@ -1,0 +1,466 @@
+﻿  Game.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(9,11): error C2374: 'ROWS': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(9,11):
+      see declaration of 'ROWS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(10,11): error C2374: 'COLS': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(10,11):
+      see declaration of 'COLS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(11,11): error C2374: 'MAX_BULLETS': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(11,11):
+      see declaration of 'MAX_BULLETS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(12,11): error C2374: 'MAX_ASTEROIDS': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(12,11):
+      see declaration of 'MAX_ASTEROIDS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(13,11): error C2374: 'MAX_ENEMY_SHIPS': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(13,11):
+      see declaration of 'MAX_ENEMY_SHIPS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(14,11): error C2374: 'MAX_ENEMY_BULLETS': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(14,11):
+      see declaration of 'MAX_ENEMY_BULLETS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(15,11): error C2374: 'MAX_CRATES': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(15,11):
+      see declaration of 'MAX_CRATES'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(16,11): error C2374: 'MAX_STARS': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(16,11):
+      see declaration of 'MAX_STARS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(18,6): error C2086: 'char map[30][30]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(18,6):
+      see declaration of 'map'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(20,5): error C2374: 'spaceshipLives': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(20,5):
+      see declaration of 'spaceshipLives'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(21,5): error C2374: 'spaceshipX': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(21,5):
+      see declaration of 'spaceshipX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(21,28): error C2374: 'spaceshipY': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(21,28):
+      see declaration of 'spaceshipY'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(22,5): error C2374: 'score': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(22,5):
+      see declaration of 'score'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(23,5): error C2374: 'distanceCovered': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(23,5):
+      see declaration of 'distanceCovered'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(24,5): error C2374: 'enemyShipsDestroyed': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(24,5):
+      see declaration of 'enemyShipsDestroyed'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(25,5): error C2374: 'cratesDestroyed': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(25,5):
+      see declaration of 'cratesDestroyed'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(26,6): error C2374: 'levelTwo': redefinition; multiple initialization
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(26,6):
+      see declaration of 'levelTwo'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(28,5): error C2086: 'int bulletX[10]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(28,5):
+      see declaration of 'bulletX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(29,5): error C2086: 'int bulletY[10]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(29,5):
+      see declaration of 'bulletY'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(30,6): error C2086: 'bool bulletActive[10]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(30,6):
+      see declaration of 'bulletActive'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(32,5): error C2086: 'int asteroidX[5]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(32,5):
+      see declaration of 'asteroidX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(33,5): error C2086: 'int asteroidY[5]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(33,5):
+      see declaration of 'asteroidY'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(34,6): error C2086: 'bool asteroidActive[5]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(34,6):
+      see declaration of 'asteroidActive'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(36,5): error C2086: 'int enemyShipX[3]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(36,5):
+      see declaration of 'enemyShipX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(37,5): error C2086: 'int enemyShipY[3]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(37,5):
+      see declaration of 'enemyShipY'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(38,5): error C2086: 'int enemyShipSpeed[3]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(38,5):
+      see declaration of 'enemyShipSpeed'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(39,6): error C2086: 'bool enemyShipActive[3]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(39,6):
+      see declaration of 'enemyShipActive'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(41,5): error C2086: 'int enemyBulletX[10]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(41,5):
+      see declaration of 'enemyBulletX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(42,5): error C2086: 'int enemyBulletY[10]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(42,5):
+      see declaration of 'enemyBulletY'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(43,6): error C2086: 'bool enemyBulletActive[10]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(43,6):
+      see declaration of 'enemyBulletActive'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(45,5): error C2086: 'int crateX[2]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(45,5):
+      see declaration of 'crateX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(46,5): error C2086: 'int crateY[2]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(46,5):
+      see declaration of 'crateY'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(47,6): error C2086: 'bool crateActive[2]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(47,6):
+      see declaration of 'crateActive'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(49,5): error C2086: 'int starX[5]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(49,5):
+      see declaration of 'starX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(50,5): error C2086: 'int starY[5]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(50,5):
+      see declaration of 'starY'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(51,6): error C2086: 'bool starActive[5]': redefinition
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(51,6):
+      see declaration of 'starActive'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(53,6): error C2084: function 'void setCursorPosition(int,int)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(53,6):
+      see previous definition of 'setCursorPosition'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(59,6): error C2084: function 'void initializeMap(void)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(59,6):
+      see previous definition of 'initializeMap'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(75,6): error C2084: function 'void placeSpaceship(int,int)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(75,6):
+      see previous definition of 'placeSpaceship'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(81,6): error C2084: function 'void clearSpaceship(int,int)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(81,6):
+      see previous definition of 'clearSpaceship'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(87,6): error C2084: function 'void displayMap(void)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(87,6):
+      see previous definition of 'displayMap'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(118,6): error C2084: function 'bool isOnSpeedRoad(void)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(118,6):
+      see previous definition of 'isOnSpeedRoad'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(122,6): error C2084: function 'void updateSpaceshipSpeed(int &)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(122,6):
+      see previous definition of 'updateSpaceshipSpeed'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(129,6): error C2084: function 'void spawnAsteroids(void)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(129,6):
+      see previous definition of 'spawnAsteroids'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(139,6): error C2084: function 'void updateAsteroids(int)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(139,6):
+      see previous definition of 'updateAsteroids'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(164,6): error C2084: function 'void updateBullets(void)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(164,6):
+      see previous definition of 'updateBullets'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(180,6): error C2084: function 'void spawnEnemyShips(void)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(180,6):
+      see previous definition of 'spawnEnemyShips'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(191,6): error C2084: function 'void updateEnemyShips(int)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(191,6):
+      see previous definition of 'updateEnemyShips'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(211,6): error C2084: function 'void fireEnemyBullets(int)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(211,6):
+      see previous definition of 'fireEnemyBullets'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(230,6): error C2084: function 'void updateEnemyBullets(int)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(230,6):
+      see previous definition of 'updateEnemyBullets'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(253,6): error C2084: function 'void spawnCrates(void)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(253,6):
+      see previous definition of 'spawnCrates'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(263,6): error C2084: function 'void updateCrates(int)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(263,6):
+      see previous definition of 'updateCrates'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(288,6): error C2084: function 'void spawnStars(void)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(288,6):
+      see previous definition of 'spawnStars'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(298,6): error C2084: function 'void updateStars(int)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(298,6):
+      see previous definition of 'updateStars'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(316,6): error C2084: function 'void handleCollisions(void)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(316,6):
+      see previous definition of 'handleCollisions'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(367,6): error C2084: function 'void checkLevelTransition(void)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(367,6):
+      see previous definition of 'checkLevelTransition'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(373,5): error C2084: function 'int main(void)' already has a body
+  (compiling source file 'Game.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(373,5):
+      see previous definition of 'main'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ncrypt.h(250,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ncrypt.h(250,26): error C2146: syntax error: missing ';' before identifier 'NCryptBuffer'
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ncrypt.h(250,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ncrypt.h(252,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ncrypt.h(252,26): error C2146: syntax error: missing ';' before identifier 'NCryptBufferDesc'
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ncrypt.h(252,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ncrypt.h(1181,14): error C2061: syntax error: identifier 'NCryptBufferDesc'
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ncrypt.h(1196,14): error C2061: syntax error: identifier 'NCryptBufferDesc'
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ncrypt.h(1308,17): error C2061: syntax error: identifier 'NCryptBufferDesc'
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ncrypt.h(1323,17): error C2061: syntax error: identifier 'NCryptBufferDesc'
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ncrypt.h(1341,17): error C2061: syntax error: identifier 'NCryptBufferDesc'
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ncrypt.h(1359,17): error C2061: syntax error: identifier 'NCryptBufferDesc'
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wincrypt.h(8461,37): error C3646: 'hCNGContentEncryptKey': unknown override specifier
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wincrypt.h(8461,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wincrypt.h(8842,33): error C3646: 'hCNGContentEncryptKey': unknown override specifier
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wincrypt.h(8842,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wincrypt.h(14947,1): warning C4229: anachronism used: modifiers on data are ignored
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wincrypt.h(14947,1): error C2491: 'CryptExportPublicKeyInfoFromBCryptKeyHandle': definition of dllimport data not allowed
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wincrypt.h(14948,10): error C2065: 'BCRYPT_KEY_HANDLE': undeclared identifier
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wincrypt.h(14948,28): error C2146: syntax error: missing ')' before identifier 'hBCryptKey'
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wincrypt.h(14964,23): error C2165: 'left-side modifier': cannot modify pointers to data
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wincrypt.h(14965,10): error C2065: 'BCRYPT_KEY_HANDLE': undeclared identifier
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wincrypt.h(14965,28): error C2146: syntax error: missing ')' before identifier 'hBCryptKey'
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wincrypt.h(15053,11): error C2061: syntax error: identifier 'BCRYPT_KEY_HANDLE'
+  (compiling source file 'Game.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wincrypt.h(15066,11): error C2061: syntax error: identifier 'BCRYPT_KEY_HANDLE'
+  (compiling source file 'Game.cpp')
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(23,6): error C2369: 'map': redefinition; different subscripts
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(18,6):
+      see declaration of 'map'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(30,5): error C2374: 'spaceshipLives': redefinition; multiple initialization
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(20,5):
+      see declaration of 'spaceshipLives'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(31,5): error C2374: 'spaceshipX': redefinition; multiple initialization
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(21,5):
+      see declaration of 'spaceshipX'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(31,28): error C2374: 'spaceshipY': redefinition; multiple initialization
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(21,28):
+      see declaration of 'spaceshipY'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(32,5): error C2374: 'score': redefinition; multiple initialization
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(22,5):
+      see declaration of 'score'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(33,5): error C2374: 'distanceCovered': redefinition; multiple initialization
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(23,5):
+      see declaration of 'distanceCovered'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(34,5): error C2374: 'enemyShipsDestroyed': redefinition; multiple initialization
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(24,5):
+      see declaration of 'enemyShipsDestroyed'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(35,5): error C2374: 'cratesDestroyed': redefinition; multiple initialization
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(25,5):
+      see declaration of 'cratesDestroyed'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(36,6): error C2374: 'levelTwo': redefinition; multiple initialization
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(26,6):
+      see declaration of 'levelTwo'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(39,5): error C2369: 'bulletX': redefinition; different subscripts
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(28,5):
+      see declaration of 'bulletX'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(40,5): error C2369: 'bulletY': redefinition; different subscripts
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(29,5):
+      see declaration of 'bulletY'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(41,6): error C2369: 'bulletActive': redefinition; different subscripts
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(30,6):
+      see declaration of 'bulletActive'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(44,5): error C2369: 'asteroidX': redefinition; different subscripts
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(32,5):
+      see declaration of 'asteroidX'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(45,5): error C2369: 'asteroidY': redefinition; different subscripts
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(33,5):
+      see declaration of 'asteroidY'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(46,6): error C2369: 'asteroidActive': redefinition; different subscripts
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(34,6):
+      see declaration of 'asteroidActive'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(49,5): error C2369: 'enemyShipX': redefinition; different subscripts
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(36,5):
+      see declaration of 'enemyShipX'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(50,5): error C2369: 'enemyShipY': redefinition; different subscripts
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(37,5):
+      see declaration of 'enemyShipY'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(51,5): error C2369: 'enemyShipSpeed': redefinition; different subscripts
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(38,5):
+      see declaration of 'enemyShipSpeed'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(52,6): error C2369: 'enemyShipActive': redefinition; different subscripts
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(39,6):
+      see declaration of 'enemyShipActive'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(55,5): error C2369: 'enemyBulletX': redefinition; different subscripts
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(41,5):
+      see declaration of 'enemyBulletX'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(56,5): error C2369: 'enemyBulletY': redefinition; different subscripts
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(42,5):
+      see declaration of 'enemyBulletY'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(57,6): error C2369: 'enemyBulletActive': redefinition; different subscripts
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(43,6):
+      see declaration of 'enemyBulletActive'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(60,5): error C2086: 'int crateX[2]': redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(45,5):
+      see declaration of 'crateX'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(61,5): error C2086: 'int crateY[2]': redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(46,5):
+      see declaration of 'crateY'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(62,6): error C2086: 'bool crateActive[2]': redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(47,6):
+      see declaration of 'crateActive'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(65,5): error C2369: 'starX': redefinition; different subscripts
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\bcrypt.h(49,5):
+      see declaration of 'starX'
+  
+D:\UNI\1st Semester\Programing Fundamentals\Pf Project\Pf Project\Game.cpp(65,5): error C1003: error count exceeds 100; stopping compilation
